@@ -1,0 +1,37 @@
+# === Сборка C-кода (Компиляторы GCC/Clang) ===
+*.o
+*.obj
+*.out
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# === Сборка Kotlin / Gradle ===
+.gradle/
+build/
+/build/
+*.konan/
+
+# === Инструменты автоматизации сборки (Build Systems) ===
+Makefile.in
+/CMakeLists.txt.user
+/CMakeCache.txt
+/CMakeFiles/
+/CMakeScripts/
+/cmake_install.cmake
+/Makefile
+/targets/
+
+# === Логи и дампы аварийного завершения ===
+*.log
+*.dump
+core
+*.stackdump
+
+# === Среды разработки (JetBrains CLion / IDEA / VS Code) ===
+.idea/
+.vscode/
+*.swp
+*.bak
